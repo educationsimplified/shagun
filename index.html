@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>House of Shagunn | Banarasi Sarees & Bangles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#FBF5E9; --cream:#F3E8D2; --ink:#2A1216; --muted:#7A625C; --maroon:#5A1022; --maroon2:#7B1A31; --emerald:#0F4A3C; --gold:#C29A4D; --gold-l:#E6C98A; --wa:#1FA855; --line:#E4D3B4;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--ivory:#1A0F12;--cream:#24161A;--ink:#F6EBDA;--muted:#C7AFA6;--line:#4A3033;color-scheme:dark}
+}
+:root[data-theme="dark"]{--ivory:#1A0F12;--cream:#24161A;--ink:#F6EBDA;--muted:#C7AFA6;--line:#4A3033;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:Jost,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;padding-bottom:88px}
+.is-desktop body{padding-bottom:0}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-weight:600}
+.pat{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cpath d='M28 6 50 28 28 50 6 28Z' fill='none' stroke='%23E6C98A' stroke-opacity='.16' stroke-width='1.2'/%3E%3Ccircle cx='28' cy='28' r='3' fill='%23E6C98A' fill-opacity='.18'/%3E%3C/svg%3E")}
+
+.ann{background:var(--maroon);color:var(--gold-l);overflow:hidden;white-space:nowrap;font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:500}
+.ann>div{display:inline-block;padding:10px 0;animation:slide 34s linear infinite}
+.ann span{padding:0 18px}.ann i{font-style:normal;color:var(--gold);padding:0 4px}
+@keyframes slide{to{transform:translateX(-50%)}}
+nav{background:var(--ivory);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:28px;letter-spacing:.07em;text-transform:uppercase;text-decoration:none;line-height:1;color:var(--maroon)}
+.brand small{display:block;font-family:Jost,sans-serif;font-weight:500;font-size:10px;letter-spacing:.34em;color:var(--gold);margin-top:5px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brand{color:var(--gold-l)}}
+:root[data-theme="dark"] .brand{color:var(--gold-l)}
+.nbtn{font-weight:600;font-size:14px;text-decoration:none;color:var(--maroon);border:1.5px solid var(--gold);padding:9px 20px;border-radius:999px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .nbtn{color:var(--gold-l)}}
+:root[data-theme="dark"] .nbtn{color:var(--gold-l)}
+
+.cta{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-weight:600;font-size:17px;padding:17px 32px;border-radius:999px;box-shadow:0 10px 24px -10px rgba(0,0,0,.55);animation:glow 2.6s ease-in-out infinite}
+.cta:hover{filter:brightness(.95)}
+.cta:focus-visible,.nbtn:focus-visible,.card:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.cta svg{width:23px;height:23px;fill:currentColor;flex:none}
+.cta::after{content:"";position:absolute;top:0;left:-60%;width:35%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.42),transparent);transform:skewX(-20deg);animation:shine 4s ease-in-out infinite}
+@keyframes shine{0%,60%{left:-60%}100%{left:140%}}
+@keyframes glow{0%,100%{box-shadow:0 10px 24px -10px rgba(0,0,0,.55),0 0 0 0 rgba(31,168,85,.5)}50%{box-shadow:0 10px 24px -10px rgba(0,0,0,.55),0 0 0 14px rgba(31,168,85,0)}}
+.mob .cta{width:100%}
+.note{font-size:14px;margin:12px 0 0;opacity:.85}
+.desk{display:none}.is-desktop .desk{display:block}.is-desktop .mob{display:none}
+
+/* hero */
+.hero{background-color:var(--maroon);color:#FBEFD9;position:relative;overflow:hidden}
+.hero .wrap{display:grid;gap:34px;padding-top:50px;padding-bottom:58px;position:relative}
+.hero::before{content:"";position:absolute;width:560px;height:560px;left:-160px;top:-220px;background:radial-gradient(circle,rgba(230,201,138,.28),transparent 65%);animation:drift 10s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(90px,50px) scale(1.15)}}
+.hero h1{font-size:clamp(42px,10.5vw,76px);line-height:1.04;margin:0 0 16px}
+.hero h1 i{font-style:italic;color:var(--gold-l)}
+.lead{font-size:18px;max-width:42ch;margin:0 0 26px;color:#F1DCC0}
+.proof{margin-top:18px;font-size:15px;color:#F1DCC0}
+.proof b{color:var(--gold-l);font-weight:600}
+/* arch frame: replace the SVG with <img src="banner.jpg" alt=""> to show your photo */
+.arch{justify-self:center;width:min(100%,330px);aspect-ratio:3/4;border-radius:999px 999px 10px 10px;border:2px solid var(--gold);padding:9px;background:transparent}
+.arch>div{width:100%;height:100%;border-radius:999px 999px 4px 4px;overflow:hidden;background:var(--img,none) center/cover,linear-gradient(170deg,#7B1A31,#3D0B18);display:flex;align-items:center;justify-content:center;border:1px solid rgba(230,201,138,.5)}
+.arch img{width:100%;height:100%;object-fit:cover}
+.rose{width:62%;fill:none;stroke:var(--gold-l);stroke-width:1.4;animation:spin 50s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* direct-order + marketplaces (inside hero) */
+.direct{margin-top:26px;max-width:480px;border:1.5px solid var(--gold);border-radius:16px;padding:18px 20px;background:rgba(0,0,0,.18);outline:1px solid rgba(230,201,138,.4);outline-offset:-7px}
+.direct h2{font-size:26px;line-height:1.15;margin:0 0 4px;color:var(--gold-l)}
+.direct p{margin:0 0 14px;font-size:15px;color:#F1DCC0}
+.also{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-l);margin:0 0 10px;font-weight:500}
+.mk{display:flex;flex-wrap:wrap;gap:10px}
+.mk a{text-decoration:none;color:#FBEFD9;font-weight:500;font-size:14.5px;padding:8px 16px;border:1.5px solid var(--gold);border-radius:999px;transition:background .2s,color .2s,box-shadow .2s}
+.mk a:hover{background:var(--gold);color:#2A1A06;box-shadow:0 0 18px rgba(230,201,138,.6)}
+.mk a:focus-visible{outline:3px solid var(--gold-l);outline-offset:3px}
+
+/* trust band */
+.band{border-bottom:1px solid var(--line)}
+.band .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding-top:28px;padding-bottom:28px;text-align:center}
+.band div+div{border-left:1px solid var(--line)}
+.band b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:clamp(32px,8vw,54px);color:var(--gold);line-height:1}
+.band span{font-size:13.5px;color:var(--muted)}
+.count{font-style:normal;font-variant-numeric:tabular-nums}
+.dir{background:linear-gradient(100deg,#B08432,#F0D595,#B08432);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 3.2s linear infinite}
+@keyframes sheen{to{background-position:-200% 0}}
+
+section.s{padding:62px 0}
+.head{text-align:center;margin-bottom:34px}
+.head h2{font-size:clamp(32px,7vw,50px);line-height:1.1;margin:0 auto 10px;max-width:20ch}
+.head p{margin:0;color:var(--muted);font-size:17px}
+.orn{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--gold);margin-bottom:14px}
+.orn::before,.orn::after{content:"";width:54px;height:1px;background:var(--gold)}
+.orn svg{width:16px;height:16px;fill:currentColor}
+
+/* arch cards */
+.cards{display:grid;gap:22px;justify-items:center}
+.card{position:relative;width:min(100%,320px);aspect-ratio:3/4.1;border-radius:999px 999px 10px 10px;border:2px solid var(--gold);padding:8px;text-decoration:none;color:#FBEFD9;transition:transform .35s,box-shadow .35s}
+.card>div{position:relative;width:100%;height:100%;border-radius:999px 999px 4px 4px;border:1px solid rgba(230,201,138,.5);overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;padding:0 16px 30px}
+.card:hover{transform:translateY(-8px);box-shadow:0 0 0 1px var(--gold-l),0 22px 44px -14px rgba(194,154,77,.8)}
+.card svg{position:absolute;top:13%;left:50%;width:56%;transform:translateX(-50%);fill:none;stroke:var(--gold-l);stroke-width:1.4}
+.card svg.rot{animation:spin 60s linear infinite;transform-origin:50% 50%}
+.card h3{position:relative;font-size:30px;line-height:1.05;margin:0 0 6px}
+.card p{position:relative;margin:0;font-size:13.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l);font-weight:500}
+.card>div::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(30,6,14,.72),transparent 55%)}
+.c1>div{background:var(--img,none) center/cover,linear-gradient(170deg,#7B1A31,#3D0B18)}
+.c2>div{background:var(--img,none) center/cover,linear-gradient(170deg,#126152,#0A3128)}
+.c3>div{background:var(--img,none) center/cover,linear-gradient(170deg,#9A7430,#5E4515)}
+
+.qrbox{display:inline-flex;align-items:center;gap:20px;padding:20px;background:var(--cream);border:1.5px solid var(--gold);border-radius:16px}
+.qrbox p{margin:0;max-width:24ch;font-weight:500}
+#qr{background:#fff;padding:10px;border-radius:8px;line-height:0;flex:none}
+
+/* offer */
+.offer{position:relative;background-color:var(--maroon);color:#FBEFD9;text-align:center;padding:48px 24px;border-radius:20px;border:2px solid var(--gold);outline:1px solid var(--gold);outline-offset:-10px;box-shadow:0 0 80px -26px rgba(194,154,77,.85)}
+.badge{display:inline-block;background:linear-gradient(100deg,#B08432,#F0D595,#B08432);background-size:200% 100%;animation:sheen 3.2s linear infinite;color:#2A1A06;font-weight:600;font-size:13px;letter-spacing:.12em;text-transform:uppercase;padding:5px 16px;border-radius:999px;margin-bottom:16px}
+.offer h2{font-size:clamp(36px,8vw,60px);line-height:1.05;margin:0 auto 12px;max-width:14ch}
+.offer p{max-width:44ch;margin:0 auto 26px;font-size:18px;color:#F1DCC0}
+.steps{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;margin:26px 0 0;padding:0;list-style:none;font-size:15px;color:#F1DCC0}
+.steps b{display:inline-flex;width:26px;height:26px;border-radius:50%;border:1.5px solid var(--gold-l);color:var(--gold-l);align-items:center;justify-content:center;margin-right:8px;font-weight:500}
+
+.final{text-align:center}
+.final h2{font-size:clamp(34px,8vw,58px);line-height:1.08;margin:0 auto 26px;max-width:16ch}
+footer{background:var(--maroon);color:#E9CFB0;text-align:center;padding:32px 20px;font-size:14px}
+footer b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-l);margin-bottom:4px}
+
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:linear-gradient(to top,var(--ivory) 65%,transparent)}
+.sticky .cta{width:100%;padding:16px 20px}
+.is-desktop .sticky{display:none}
+
+@media (min-width:800px){
+  .hero .wrap{grid-template-columns:1.15fr .85fr;align-items:center;padding-top:76px;padding-bottom:84px}
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .offer{padding:68px 56px}
+}
+@media (prefers-reduced-motion: reduce){.cta,.cta::after,.hero::before,.ann>div,.badge,.dir{animation:none}.card{transition:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="wa" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.9 11.9 0 0 0 5.6 1.4c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.3zM12 21.7c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.8 9.8 0 0 1-1.5-5.2C2.1 6.5 6.6 2 12 2c2.6 0 5.1 1 6.9 2.9a9.7 9.7 0 0 1 2.9 6.9c0 5.4-4.4 9.9-9.8 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 2.9 1.1 2.9.8 3.4.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></symbol>
+<!-- Banarasi rosette (kalga-style buti) -->
+<symbol id="rose" viewBox="-50 -50 100 100"><g><ellipse cx="0" cy="-27" rx="9" ry="21"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(45)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(90)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(135)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(180)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(225)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(270)"/><ellipse cx="0" cy="-27" rx="9" ry="21" transform="rotate(315)"/><circle r="8"/><circle r="3" fill="currentColor"/></g></symbol>
+<symbol id="dia" viewBox="0 0 10 10"><path d="M5 0 10 5 5 10 0 5Z"/></symbol>
+</svg>
+
+<div class="ann" role="text" aria-label="Extra discount when you buy directly on WhatsApp"><div aria-hidden="true">
+  <span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i>
+  <span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i><span>Extra discount when you buy directly on WhatsApp</span><i>◆</i>
+</div></div>
+<nav><div class="wrap">
+  <a class="brand" href="https://wa.me/c/918707001215">House of Shagunn<small>BANARAS</small></a>
+  <a class="nbtn wa-link" href="#" target="_blank" rel="noopener">Shop now</a>
+</div></nav>
+
+<header class="hero pat"><div class="wrap">
+  <div>
+    <h1>Banarasi sarees &amp; bangles, from the heart of <i>Banaras</i></h1>
+    <p class="lead">Originated in the city of Banaras, with 25+ years of experience and 700+ happy customers.</p>
+    <div class="mob">
+      <a class="cta wa-link" href="https://wa.me/c/918707001215"><svg aria-hidden="true"><use href="https://wa.me/c/918707001215"/></svg>Open WhatsApp catalog</a>
+      <p class="note">Taking you to our catalog. If nothing happens, tap the button.</p>
+    </div>
+    <div class="desk">
+      <a class="cta wa-link" href="https://wa.me/c/918707001215" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="https://wa.me/c/918707001215"/></svg>Click to continue shopping on WhatsApp</a>
+      <p class="note">No sign-up needed. Just chat with us.</p>
+    </div>
+    <p class="proof"><b>700+ women</b> already shop with us</p>
+
+    <!-- Replace each href with your exact shop link -->
+    <div class="direct">
+      <h2>Order directly to get maximum discount</h2>
+      <p>Our best price is always on WhatsApp. Marketplaces cannot match it.</p>
+      <p class="also">We are also on</p>
+      <div class="mk">
+        <a href="https://wa.me/c/918707001215" target="_blank" rel="noopener">Etsy: House of Shagun</a>
+        <a href="https://www.etsy.com/shop/ZARIYAnoor" target="_blank" rel="noopener">Etsy: Zaria Noor</a>
+        <a href="https://wa.me/c/918707001215" target="_blank" rel="noopener">Amazon Global</a>
+      </div>
+    </div>
+  </div>
+  <!-- HERO PHOTO: portrait 3:4 (e.g. 900 x 1200 px). Add it like this: <div style="--img:url('hero.jpg')"> -->
+  <div class="arch" role="img" aria-label="House of Shagunn collection"><div></div></div>
+</div></header>
+
+<div class="band"><div class="wrap">
+  <div><b><i class="count" data-to="25">25+</i></b><span>years of experience</span></div>
+  <div><b><i class="count" data-to="700">700+</i></b><span>happy customers</span></div>
+  <div><b class="dir">Direct</b><span>extra discount on WhatsApp</span></div>
+</div></div>
+
+<section class="s"><div class="wrap">
+  <div class="head">
+    <div class="orn"><svg aria-hidden="true"><use href="#dia"/></svg></div>
+    <h2>We offer Banarasi sarees, bangles and many more</h2>
+    <p>Tap a collection to see it in our WhatsApp catalog.</p>
+  </div>
+  <!-- CARD PHOTOS: portrait 3:4 (e.g. 900 x 1200 px). Add like this: <div style="--img:url('sarees.jpg')"> -->
+  <div class="cards">
+    <a class="card c1 wa-link" href="#" target="_blank" rel="noopener"><div>
+      <h3>Banarasi Sarees</h3><p>View collection</p></div></a>
+    <a class="card c2 wa-link" href="#" target="_blank" rel="noopener"><div>
+      <h3>Bangles</h3><p>View collection</p></div></a>
+    <a class="card c3 wa-link" href="#" target="_blank" rel="noopener"><div>
+      <h3>And Many More</h3><p>Ask us for anything</p></div></a>
+  </div>
+</div></section>
+
+<section class="s desk" style="padding-top:0"><div class="wrap" style="text-align:center">
+  <div class="head"><h2>Prefer your phone?</h2><p>Scan the code to open our catalog on WhatsApp.</p></div>
+  <div class="qrbox"><div id="qr" aria-label="QR code to open our WhatsApp catalog"></div><p>Scan with your phone camera to shop on WhatsApp.</p></div>
+</div></section>
+
+<section class="s" style="padding-top:0"><div class="wrap">
+  <!-- EDIT the discount wording once decided, e.g. "Extra 5% off" -->
+  <div class="offer pat">
+    <span class="badge">Direct order offer</span>
+    <h2>Buy directly. Save extra.</h2>
+    <p>Order through our WhatsApp catalog and ask for your direct-purchase discount. It is not available anywhere else.</p>
+    <a class="cta wa-link" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Claim my extra discount</a>
+    <ol class="steps"><li><b>1</b>Open our catalog</li><li><b>2</b>Pick what you love</li><li><b>3</b>Ask for your discount</li></ol>
+  </div>
+</div></section>
+
+<section class="s final" style="padding-top:10px"><div class="wrap">
+  <h2>Your next favourite is one tap away.</h2>
+  <a class="cta wa-link" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Shop on WhatsApp</a>
+</div></section>
+
+<div class="sticky"><a class="cta wa-link" href="#"><svg aria-hidden="true"><use href="#wa"/></svg>Shop on WhatsApp and save extra</a></div>
+<footer><b>House of Shagunn</b>Originated in Banaras, Varanasi</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+  // ====== EDIT THESE ======
+  var PHONE = "919999999999"; // WhatsApp Business number with catalog, country code, no + or spaces
+  var AUTO_REDIRECT = true;   // true: phones and tablets go straight to the catalog; false: show this page first
+  // ========================
+  var url = "https://wa.me/c/" + PHONE;
+  var links = document.querySelectorAll(".wa-link");
+  for (var i = 0; i < links.length; i++) links[i].setAttribute("href", url);
+
+  var counters = document.querySelectorAll(".count");
+  var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function countUp(el){
+    var to = +el.getAttribute("data-to"), t0 = null, d = 1800;
+    function f(t){ if (!t0) t0 = t; var p = Math.min((t - t0) / d, 1), e = 1 - Math.pow(1 - p, 3); el.textContent = Math.round(to * e) + "+"; if (p < 1) requestAnimationFrame(f); }
+    requestAnimationFrame(f);
+  }
+  if (!calm && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function(es){ es.forEach(function(en){ if (en.isIntersecting) { countUp(en.target); io.unobserve(en.target); } }); }, { threshold: 0.4 });
+    for (var c = 0; c < counters.length; c++) { counters[c].textContent = "0+"; io.observe(counters[c]); }
+  }
+
+  var ua = navigator.userAgent || "";
+  var mobileUA = /Android|iPhone|iPad|iPod|Mobile|Opera Mini|IEMobile|FBAN|FBAV|Instagram/i.test(ua);
+  var small = window.matchMedia && window.matchMedia("(max-width: 700px) and (pointer: coarse)").matches;
+  var tablet = /Macintosh/i.test(ua) && navigator.maxTouchPoints > 1;
+  if (mobileUA || small || tablet) {
+    if (AUTO_REDIRECT) { try { (window.top === window ? window : window.top).location.replace(url); } catch (e) {} }
+  } else {
+    document.documentElement.classList.add("is-desktop");
+    try {
+      new QRCode(document.getElementById("qr"), { text: url, width: 130, height: 130, correctLevel: QRCode.CorrectLevel.M });
+    } catch (e) { var q = document.getElementById("qr"); if (q) q.parentNode.style.display = "none"; }
+  }
+})();
+</script>
+</body>
+</html>
